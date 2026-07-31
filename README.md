@@ -99,7 +99,7 @@
 Focus specifically on: variables & scope, DOM selection (`querySelector`/`querySelectorAll`), event listeners (`click`, `keydown`, `submit`), array methods (`map`, `filter`, `forEach`), template l[...]
 
 ---
-
+**Detailed version roadmaps:** [v1.md](v1.md) — Version 1 (HTML & CSS UI Polish); 
 # VERSION 2a — Vanilla JS + Supabase: Core Realtime Chat
 
 **Overall goal:** Turn the static UI into a working chat where messages persist and multiple browser tabs/devices see new messages instantly, without auth yet (a plain text `user_name` field stan[...]
@@ -224,6 +224,8 @@ client
 ---
 
 # VERSION 2b — Authentication (Supabase Auth)
+
+**Detailed version roadmaps:**  [v2.md](v2.md) — Version 2 (Vanilla JS + Supabase)
 
 **Overall goal:** Replace the spoofable `user_name` text field with real accounts, so every message is tied to an actual authenticated user before you build anything else on top.
 
